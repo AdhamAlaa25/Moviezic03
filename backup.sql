@@ -144,7 +144,7 @@ CREATE SEQUENCE public."Liked_id_seq"
 ALTER TABLE public."Liked_id_seq" OWNER TO postgres;
 
 --
--- Name: Liked_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+-- Name: Liked_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: default
 --
 
 ALTER SEQUENCE public."Liked_id_seq" OWNED BY public."Liked".id;
